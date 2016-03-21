@@ -16,13 +16,13 @@ img{
     background-color: #fff;
     margin-left:-100%;
     border: 1px solid #999;
-    padding: 20px;
 }
 .left p{
     float: right;
+    padding: 20px;
 }
 .left img{
-    /*padding: 20px;*/
+    margin: 20px;
     float: left;
 }
 .right {
