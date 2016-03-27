@@ -18,8 +18,8 @@
         <article>
             <section class="top">
                 <figure class="top_pic">
-                    <img src="images/绿色遮罩.png" alt="绿色遮罩">
-                    <img class="image_left" src="images/红色遮罩.png" alt="红色遮罩">
+                    <img src="images/green.png" alt="greenmask">
+                    <img class="image_left" src="images/red.png" alt="redmask">
                 </figure>
                 <aside class="top_right">
                     <p>About</p>
@@ -31,7 +31,73 @@
                     <p>csscsscsscss</p>
                 </aside>
             </section>
+            <section class="middle">
+                <div class="what">
+                    <p>what</p>
+                    <p>在做task6的时候遇见的一个问题，设置字体格式的时候我习惯是用“微软雅黑”、“黑体”、“楷体”等，中文样式来设置font-family。但是今天浏览器居然无法识别！迅速的百度（此处是广告）了一下，《HTML页面为什么设置了UTF-8仍然中文乱码_百度知道》果然不止是我一个人栽倒坑里了。答案里说：还得把页面本身转成相应编码才行。呵呵，然而并没有什么卵用。风骚的小乱码依然坚挺。
+                    </p>
+                </div>
+                <div class="when">
+                    <p>想知道为什么不？</p>
+                    <p>哈哈哈哈哈，求我呀！
+                        <br> 解决的方法有两个。1、在css文件前面加上@charset&nbsp;utf-8,强制转换为utf-8的编码格式，让浏览器误以为utf-格式（其实还是原来的编码）。2、我用的sublime：菜单--重新用...编码打开--utf-8。就可以了。之前用txt之所以不成功是因为，txt默认的是utf-8 BOM格式，所以还是不能正常编译。是不是很坑爹。
+                    </p>
+                </div>
+                <div class="how">
+                    <p>How</p>
+                    <p>其实问题很简单，群里的JUSTICE大神，分分钟就解决了。但是自己搜索起来还是很麻烦，尤其是找到了近似答案，尝试失败后，会转变方向，就想叉了。</p>
+                    <p>what----------<span>40%</span></p>
+                    <p>what----------<span>30%</span></p>
+                    <p>what----------<span>30%</span></p>
+                </div>
+            </section>
+            <section class="foot">
+                <div class="foot_left">
+                    <div class="title">
+                        <p>THE&nbsp;<span>TECHNOLOGE</span></p>
+                        <p>OF FRONT</p>
+                        <p>前端技术领域</p>
+                    </div>
+                    <div class="container_left">
+                        <p>前端前端前端前端前端前端前端前端前端前 端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前 端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前 端前端前端前端前端前端前端前端前端前端前端前端前端
+                            <img src="images/picture1.png" alt="picture1">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前
+                        </p>
+                    </div>
+                </div>
+                <div class="foot_right">
+                    <div class="foot_right_img">
+                        <img src="images/picture2.png" alt="picture2" />
+                        <img src="images/gray_mask.png" alt="gray_mask" />
+                        <p>前端技术<span class="tips">中文字间距怎么用百分比设置呀？！</span></p>
+                    </div>
+                    <div class="container_right">
+                        <p>
+                            <span class="tag"></span><span class="mark_one">前端前端..................................</span><span class="mark">前端</span>
+                            <br>
+                            <span class="tag"></span><span class="mark_one">前端前端..................................</span><span class="mark">前端</span>
+                            <br>
+                            <span class="tag"></span><span class="mark_one"><a href="http://www.zhangxinxu.com/wordpress/?p=794">CSS border三角、圆角图形生成技术简介</a>.....</span><span class="mark">前端</span>
+                            <br>
+                            
+                        </p>
+                    </div>
+                    <div class="container_aside">
+                        <div>
+                            <p>O</p>
+                        </div>
+                        <div class="zero">
+                            <p>ONE TWO
+                                <br>THREE FORE FIVE</p>
+                            <p>hello world hello world
+                                <br>hello world</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </article>
+        <footer>
+        	<p class="footer_right">ife.baidu.com</p>
+        </footer>
     </div>
 </body>
 
