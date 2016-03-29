@@ -1,0 +1,114 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+ul,li{
+	list-style: none;
+}
+header{
+	background-image: url(images/bcg_header.png);
+	background-size:1366px 56px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+header input{
+	position: absolute;
+	top: 14px;
+	right: 156px;
+	height: 28px;
+	border-radius:20px;
+	border:none;
+	width: 312px;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 36px;
+	height: 36px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 7px;
+}
+
+.icon_user{
+	position: absolute;
+	top: 20px; 
+	right: 120px;
+	bottom: 20px;
+}
+.login{
+	color: #ffffff;
+	font-family: "Simhei";
+	font-size: 12px;
+}
+.login p{
+	position: absolute;
+	right: 94px;
+	top:23px;
+}
+
+.search{
+	position: absolute;
+	top: 20px;
+	right: 435px;
+	z-index: 2;
+}
+aside{
+	background-color: #2a2e3d;
+	float: left;
+	height: 1209px;
+	width: 260px;
+	position: relative;
+}
+nav{
+	height: 30px;
+}
+nav>ul li{
+	float: left;
+}
+.summary{
+	height: 150px;
+}
+.summary>p{
+	font:16px "Simhei";
+	color: #f6f5f5;
+	line-height: 20.5px;
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	left: 120px;
+}
+.summary img:first-child{
+	top:18px;
+	left:45px; 
+	position: absolute;
+}
+.summary ul p{
+	font:16px/18px "Simhei";
+	color: #6e8095;
+	position: absolute;
+}
+.summary ul li:nth-child(1){
+	top: 100px;
+	left: 65px;
+}
+.summary ul li:nth-child(2){
+	top:100px;
+	left: 95px;
+}
+
+.summary ul span{
+	font:12px/12.96px "Simsun";
+	color: #6e8095;
+}
+.personal-statement{
+	height: 192px;
+	background-color: #383d4e;
+}
+article{
+	background-color: #eeedec;
+	height: 1180px;
+	width: 1089px;
+	float: right;
+}
