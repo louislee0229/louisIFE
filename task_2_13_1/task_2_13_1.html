@@ -20,15 +20,16 @@
         在事件处理函数中
         获取aqi-input输入的值，并显示在aqi-display中
         */
-        var button = document.getElementById("button");
         var inputValue = document.getElementById("aqi-input");
-        var displayValue = document.getElementById("aqi-display");
-        button.onclick = function() {
-            if (!inputValue.value) {
-                displayValue.textContent = "您还没有输入！";
+        var inputButton = document.getElementById("button");
+        var spanIntext = document.getElementById("aqi-display");
+        inputButton.onclick = function() {
+            if (inputValue.value) {
+                spanIntext.innerText = inputValue.value;
             } else {
-                displayValue.textContent = inputValue.value;
+                spanIntext.innerText = "请在输入栏输入天气质量";
             }
+
         }
     })();
     </script>
