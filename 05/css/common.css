@@ -38,7 +38,9 @@
     display: table;
     content: " ";
 }
-
+@-ms-viewport {
+  width: device-width;
+}
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
