@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript">
+    $(function(){
+    	var page = 1;//初始页
+    	var i = 4;//4个翻页
+    	//向后
+        $("a.next").click(function(){ //绑定click事件
+        	var $parent = $(this).parent("div.contain");//根据当前点击元素获取到父元素
+        	var $v_show = $parent.find("div.product_list"); //寻找到“视频内容展示区域”
+        	var $v_content = $parent.find("div.product"); //寻找到“视频内容展示区域”外围的DIV元素
+        	$v_show.animate({ left : '-977px' }, "slow");
+        });
+    });
+	</script>
+</head>
+<body>
+	<aside>
+		<div class="logo"><p>supply</p></div>
+		<div class="select">
+			123
+		</div>
+	</aside>
+	<div class="contain">
+		<div class="product">
+			<div class="product_list">
+			<div class="button">
+			<a href="" class="prev"><img src="pic/left.png" style="width:23px;height:23px;"></a>
+			<a href="" class="next"><img src="pic/right.png" style="width:23px;height:23px;"></a>
+			</div>
+			<ul class="list">
+				<li><a href="#"><img src="pic/pic-1.jpg"></a></li>
+				<li><a href="#"><img src="pic/pic-2.jpg"></a></li>
+				<li><a href="#"><img src="pic/pic-3.jpg"></a></li>
+			</ul>
+			</div>
+		</div>
+		<div class="items">
+			<img src="pic/page-1_03.png">
+			<img src="pic/page-1_05.png">
+			<img src="pic/page-1_07.png">
+		</div>
+	</div>
+</body>
+</html>

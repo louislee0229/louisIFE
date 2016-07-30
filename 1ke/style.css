@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #ffffff;
+    width: 100%;
+}
+ul, li { list-style:none; }
+aside {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #333;
+}
+
+.logo {
+    width: 54px;
+    height: 87px;
+    border: 3px solid #000000;
+    margin-left: 37px;
+    margin-top: 160px;
+    padding: 12px;
+    font: bold 34px "SimHei";
+    word-wrap: break-word;
+}
+
+.select {
+    margin-top: 42px;
+    border: 2px solid #fff;
+}
+
+.contain {
+	float: left;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+.product{
+	position: absolute;
+	width: 977px;
+	height: 553px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.product_list{
+	width: 2931px;
+	float: left;
+	position: absolute;
+}
+.list li{
+	/*float: left;*/
+	display: inline;
+}
+
+
+.button a{
+	top:255px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+}
+.button a{
+	top:255px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+}
+
+.next{
+	left: 954px;
+}
+.items{
+	margin-top: 573px;
+}
+.items img{
+	margin-right: 21px;
+
+}
