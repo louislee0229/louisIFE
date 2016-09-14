@@ -12,9 +12,13 @@
     	//向后
         $("a.next").click(function(){ //绑定click事件
         	var $parent = $(this).parent("div.contain");//根据当前点击元素获取到父元素
+        	console.log($parent);
         	var $v_show = $parent.find("div.product_list"); //寻找到“视频内容展示区域”
+        	console.log($v_show);
         	var $v_content = $parent.find("div.product"); //寻找到“视频内容展示区域”外围的DIV元素
+        	console.log($v_content);
         	$v_show.animate({ left : '-977px' }, "slow");
+        	return false;
         });
     });
 	</script>
@@ -29,8 +33,8 @@
 	<div class="contain">
 		<div class="product">
 			<div class="button">
-			<a href="" class="prev"><img src="pic/left.png" style="width:23px;height:23px;"></a>
-			<a href="" class="next"><img src="pic/right.png" style="width:23px;height:23px;"></a>
+			<a class="prev"><img src="pic/left.png" style="width:23px;height:23px;"></a>
+			<a class="next"><img src="pic/right.png" style="width:23px;height:23px;"></a>
 			</div>
 			<div class="product_list">
 			<ul class="list">
