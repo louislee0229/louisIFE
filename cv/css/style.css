@@ -67,7 +67,7 @@ a {
 /*左边栏*/
 
 .sidebar {
-    height: 2200px;
+    height: 2000px;
     width: 300px;
     background-color: #00BFA5;
     float: left;
@@ -151,7 +151,7 @@ a {
 .main {
     background-color: #F0F2F1;
     width: 760px;
-    height: 2200px;
+    height: 2000px;
     float: right;
     padding: 15px 20px;
     box-sizing: border-box;
